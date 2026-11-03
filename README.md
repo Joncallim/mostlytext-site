@@ -6,7 +6,7 @@ Source for [mostlytext.app](https://mostlytext.app/), the public website for Mos
 
 This repository contains the website only: a Vite + React static site, its brand assets, and website-specific screenshots. Changes published here are source changes; they do not update the live Cloudflare deployment until a separate deployment is approved.
 
-The native macOS application has its own source repository at [Joncallim/macdown_2](https://github.com/Joncallim/macdown_2). The screenshots in `public/images/` are captures of the application’s development build; they are included here solely for the website.
+The native macOS application has its own source repository at [Joncallim/mostlytext](https://github.com/Joncallim/mostlytext). The screenshots in `public/images/` are captures of the application’s development build; they are included here solely for the website.
 
 ## Local development
 
