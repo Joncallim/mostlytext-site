@@ -44,9 +44,9 @@ export const sourceNames: Record<string, string> = {
   "planning/RELEASE_PATH.md": "Release path", "planning/extension-api-design.md": "Extension design exploration",
   "MacDown2/project.yml": "Current build configuration",
 }
-export const planUrl = "https://github.com/Joncallim/macdown_2/blob/master/planning/MIGRATION_PLAN.md"
-export const extensionUrl = "https://github.com/Joncallim/macdown_2/blob/master/planning/extension-api-design.md"
-export const releaseSequenceUrl = "https://github.com/Joncallim/macdown_2/blob/master/planning/RELEASE_SEQUENCE.md"
+export const planUrl = "https://github.com/Joncallim/mostlytext/blob/main/planning/MIGRATION_PLAN.md"
+export const extensionUrl = "https://github.com/Joncallim/mostlytext/blob/main/planning/extension-api-design.md"
+export const releaseSequenceUrl = "https://github.com/Joncallim/mostlytext/blob/main/planning/RELEASE_SEQUENCE.md"
 export const releaseSteps = ["Finish features and stabilise the app", "Verify a private signed candidate on a Mac", "Finish localisation and freeze the interface", "Build the final candidate with source and licence evidence", "Repeat the checks on those exact release files", "Close the release requirements and move the repository", "Publish the approved, verified release"]
 export const asOf = new Date(`${data.asOf}T12:00:00Z`).toLocaleDateString("en-GB", { day: "numeric", month: "long", year: "numeric", timeZone: "UTC" })
 
