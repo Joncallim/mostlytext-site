@@ -29,13 +29,13 @@ const reel = [
 ]
 
 const faqs = [
-  ["Can I download MostlyText now?", "A source-only testing alpha is available with build instructions. There is no prebuilt app, DMG or CLI binary yet. Your build is unsigned and still named MacDown 2; signed MostlyText copies are planned for later through the App Store and direct download."],
+  ["Can I download MostlyText now?", "A source-only testing alpha is available with build instructions. There is no ready-to-install app, DMG or CLI download yet. The latest development code is in the MostlyText application repository; historical alpha downloads remain on the original release page."],
   ["Which Macs does it run on?", "The verified build instructions need macOS 26 or later, Apple Silicon, Xcode 26 and XcodeGen. Final compatibility is set by each release, so check the release notes for the build you use."],
-  ["Why does it open as MacDown 2?", "MostlyText descends from MacDown, and the development app and its repository still carry the MacDown 2 name. The rename to MostlyText, with its own icon and settings migration, is on the roadmap before 1.0."],
+  ["Why do I still see MacDown2.app?", "Current development source uses the MostlyText display name and the mostlytext command. The internal MacDown2.app filename and the older alpha’s MacDown 2 identity remain while packaging and installed-data migration are verified. The repository move does not mean a 1.0 release."],
   ["What files does it work with?", "Markdown first, plus plain text, HTML, JSON, YAML, TOML and several code formats in the current format registry. That list is development evidence, not a final support matrix."],
   ["Do I need to import my documents?", "No. A file stays a file in the folder or repository where it already lives. Open it from Finder, or from the folder sidebar."],
   ["Where do I ask for help or report a problem?", "Read the release notes first, then use the repository's issues page for reproducible problems. No response time is promised."],
-  ["Is it open source?", "The source is public in the MacDown 2 repository. Check its current licence and third-party notices there; final distribution terms are still subject to release review."],
+  ["Is it open source?", "MostlyText’s application source is under the MIT licence, preserving MacDown’s copyright and attribution. The application repository contains the licence and third-party notices. Verification of the final release artifact is still open."],
 ] as const
 
 // The roadmap's own groups, summarised as rows: the group on the left, its state on the right.
