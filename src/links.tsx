@@ -2,7 +2,7 @@ import type { ReactNode } from "react"
 
 export const ALPHA_URL = "https://github.com/Joncallim/macdown_2/releases/tag/v0.1.0-alpha.1"
 export const RELEASES_URL = "https://github.com/Joncallim/macdown_2/releases"
-export const ISSUES_URL = "https://github.com/Joncallim/macdown_2/issues"
+export const ISSUES_URL = "https://github.com/Joncallim/mostlytext/issues"
 export const SOURCE_URL = "https://github.com/Joncallim/mostlytext#readme"
 export const SITE_SOURCE_URL = "https://github.com/Joncallim/mostlytext-site"
 
