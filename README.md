@@ -51,3 +51,9 @@ The design follows the brand file's single-colour rule (ink on light, snow on da
 ## Licence
 
 See [LICENSE](LICENSE).
+
+The live engineering backlog is [MostlyText issues](https://github.com/Joncallim/mostlytext/issues).
+All 17 issues transferred with discussions and redirects; use the
+[issue number map](https://github.com/Joncallim/mostlytext/blob/main/planning/ISSUE_TRANSFER_MAP.md)
+for older references. Dated roadmap evidence and historical alpha downloads retain
+their original source URLs. Updating this repository does not deploy the website.
