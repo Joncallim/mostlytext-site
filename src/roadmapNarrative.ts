@@ -53,7 +53,7 @@ export const narratives: Record<string, Narrative> = {
   "explain-the-technical-work": {
     intro: [
       "The part of MostlyText that turns text into something you can read and send: a native Markdown preview, equations, diagrams in Mermaid, D2 and Graphviz, and export to standalone HTML and PDF.",
-      "The preview is drawn natively rather than as a web page, so it keeps up with typing and scrolls alongside the source. Diagrams and equations render locally on your Mac, without sending the document anywhere. Preview and export share one renderer, so what you export is what you checked.",
+      "The preview uses native views and scrolls alongside the source. First-party diagrams and equations render locally on your Mac. Preview and export use different presentation paths; parity, responsiveness and native release checks are still open.",
       "The features are merged. What remains is correctness and safety: headings and the table of contents that link reliably, dollar signs and currency that aren’t mistaken for maths, and strict limits on which local files the HTML preview and export may read, so a document can’t reach files it shouldn’t.",
     ],
     checks: [
